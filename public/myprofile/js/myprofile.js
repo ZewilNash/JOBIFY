@@ -140,7 +140,7 @@ window.onload = () => {
             // replace with your data 👇
 
             let uri = document.URL;
-            uri = uri.split("myprofile")[0];
+            uri = uri.split("myprofilepage")[0];
 
 
 
