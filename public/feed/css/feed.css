@@ -1,0 +1,97 @@
+.head {
+    display: flex;
+    width: 100vw;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logout{
+    font-size: 30px;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+#edit{
+    font-size: 30px;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#user_image{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 100vw;
+    padding: 10px;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+}
+
+.card-container{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: auto;
+    height: auto;
+    padding: 20px;
+}
+
+.card-container img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-container p {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#user_link{
+    cursor: pointer;
+    color: orange;
+    width: 100%;
+    height: auto;
+}
+
+#result {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    justify-items: center;
+    /* align-items: center; */
+    margin: 100px;
+    /* width: auto;
+    height: auto; */
+}
+
+.main{
+    width: 50%;
+    height: auto;
+}
+
+.back {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    color: #000000;
+}

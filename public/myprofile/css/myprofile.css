@@ -1,0 +1,42 @@
+.container{
+    margin-top: 100px;
+}
+
+.error-message{
+    width: auto;
+    height:auto;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color: red;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+  }
+
+  .error-message-extra{
+    width: auto;
+    height:auto;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color: red;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+  }
+
+  .back {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 40px;
+    color: #000000;
+}

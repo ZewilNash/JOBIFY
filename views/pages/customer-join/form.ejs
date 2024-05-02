@@ -1,0 +1,72 @@
+<div class="container">
+	<!-- code here -->
+	<div class="card">
+		<div class="card-image">	
+			<h2 class="card-heading">
+				Get started
+				<small>Let us create your account</small>
+			</h2>
+		</div>
+		<form class="card-form">
+			<input hidden id="role" type="text" 
+			value="worker"
+			class="input-field"  required/>
+			<div class="input">
+				<input id="fullname" type="text" class="input-field"  required/>
+				<label class="input-label">Fullname</label>
+			</div>
+			<div class="input">
+				<input id="bio" type="text" class="input-field"  required/>
+				<label class="input-label">Bio</label>
+            </div>
+            <label class="mt-5">Provide Your Real Image</label>
+			<div class="input">
+				<input id="image" type="file" 
+				
+				accept="image/*" class="input-field upload_widget" required/>
+				
+			</div>
+			<div class="input">
+				<input id="profession" type="text" class="input-field"  required/>
+				<label class="input-label">Profession | Skill You Looking For</label>
+			</div>
+			<div class="input">
+				<textarea  
+				id="about"
+				class="input-field" required></textarea>
+				<label class="input-label">Describe What you looking for in a worker or freelancer</label>
+            </div>
+            
+            <div class="input">
+				<input id="minInDoller" type="number" class="input-field"  required/>
+				<label class="input-label">Min TO  PAY IN DOLLAR?</label>
+            </div>
+
+            <div class="input">
+				<input id="maxInDoller" type="number" class="input-field"  required/>
+				<label class="input-label">Max TO PAY IN DOLLAR?</label>
+            </div>
+						<div class="input">
+				<input id="email" type="text" class="input-field" value="vlockn@gmail.com" required/>
+				<label class="input-label">Email</label>
+			</div>
+						<div class="input">
+				<input 
+				id="password"
+				type="password" class="input-field" required/>
+				<label class="input-label">Password</label>
+			</div>
+			<div class="action">
+				<button 
+				type="submit"
+				class="action-button create">Get started</button>
+			</div>
+		</form>
+		<div class="card-info">
+			<p>By signing up you are agreeing to our <a href="#">Terms and Conditions</a></p>
+		</div>
+		<div class="card-info">
+			<a href="/login">Login</a> If You Don't have an account
+		</div>
+	</div>
+</div>
